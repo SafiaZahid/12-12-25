@@ -39,8 +39,8 @@
 
 .child{
     position: absolute;
-    bottom: 70px;
-    right: 0px;
+    bottom: -102px;
+    right: -37px;
     background-color: white;
     border-radius: 12px;
     padding-left: 10px;
@@ -60,6 +60,9 @@
     font-size: 32px;
     font-weight: 700;
     margin-bottom: 25px;
+    font-family: raleway;
+    margin-top: 46px;
+    
 }
 
 .category {
@@ -172,11 +175,13 @@
        font-size: 14px;
    }
 
-.h11{
-   font-size: 50px;
+.sub-sec-head{
+   font-size: 38px;
+   font-family: raleway;
+   font-weight: 700;
 }
 
-   .pera{
+   .sub-pera{
        color: #BBBBBB;
    }
    .subscribe-section {
@@ -197,7 +202,9 @@
 
    .subscribe-input {
        max-width: 450px;
+       height: 40px;
        margin: 15px auto;
+       
    }
 
    .subscribe-input input {
@@ -206,12 +213,15 @@
    }
 
    .subscribe-input button {
-       border-radius: 0 6px 6px 0;
+       border-radius: 6px;
        background: #9c65ff;
-       border: none;
+       border: 1px solid white;
        padding: 12px 20px;
        font-weight: 600;
        color: #fff;
+       width: 140px;
+       font-size: 13px;
+       
    }
 
    /* Footer Section */
@@ -221,7 +231,7 @@
        background: #f7f7f7;
    }
 
-   .footer .logo1{
+   .footer logo-footer{
        font-size: 22px;
        font-weight: 600;
        color: #7b3eff;
