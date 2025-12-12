@@ -1,0 +1,57 @@
+@font-face {
+    font-family: raleway;
+    src: url(./assets/font/Raleway-Bold.ttf);
+}
+
+
+
+.nav-btn{
+    background-color: #7C4EE4;
+}
+.my-hero {
+    background-color: #7C4EE4;
+    color: white;
+    font-weight: 700;
+    font-family: raleway;
+    font-size: 45.5;
+
+}
+.hero-head{
+    color: white !important;
+}
+.hero-btn{
+    background-color: white;
+    font-size: 11px;
+    font-family: raleway;
+    font-weight: 400;
+    
+}
+.dev-sec-img{
+    width: 80%;
+    margin: 0 auto;
+    margin-left: 10px;
+
+    
+}
+.parent{
+    position: absolute;
+}
+
+.child{
+    position: relative;
+    bottom: 210px;
+    left: 300px;
+    background-color: white;
+    border-radius: 12px;
+    padding-left: 10px;
+    padding-top: 5px;
+    
+}
+.dev-btn{
+    color:#7C4EE4;
+    border:1px solid #7C4EE4;
+    margin-top: 20px;
+}
+.post-sec{
+    color:black
+}
